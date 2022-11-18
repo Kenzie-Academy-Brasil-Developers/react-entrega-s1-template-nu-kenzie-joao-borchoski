@@ -1,3 +1,3 @@
-export function RemoveCard (index, arr) {
-    arr.splice(index, 1)
+export function RemoveCard(index, arr) {
+  arr.splice(index, 1);
 }

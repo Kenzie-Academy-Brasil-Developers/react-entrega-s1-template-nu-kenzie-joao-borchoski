@@ -30,7 +30,7 @@ header > div > button {
   font-size: 20px;
 }
 
-header > div > button:hover{
+header > div > button:hover {
   transform: scale(1.1);
   transition: all 0.15s ease-in;
   border: 1.4px solid #fd377e;

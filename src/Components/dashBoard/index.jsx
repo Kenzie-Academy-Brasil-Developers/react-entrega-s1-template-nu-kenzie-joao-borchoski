@@ -32,28 +32,32 @@ export function DashBoard({ callback }) {
           </div>
           <div className="divLi2">
             <p>R${element.value},00</p>
-            <img onClick={
-              () => {
-                return setBank(bank.splice(index, 1))
-              }
-            } src={trash} alt="" />
+            <img
+              onClick={() => {
+                return setBank(bank.splice(index, 1));
+              }}
+              src={trash}
+              alt=""
+            />
           </div>
         </li>
       );
     } else {
       return (
-        <li  id={index} className="liRed" key={index}>
+        <li id={index} className="liRed" key={index}>
           <div className="divLi1">
             <h3>{element.description}</h3>
             <span>{element.type}</span>
           </div>
           <div className="divLi2">
             <p>R${element.value},00</p>
-            <img onClick={
-              () => {
-                return setBank(bank.splice(index, 1))
-              }
-            } src={trash} alt="" />
+            <img
+              onClick={() => {
+                return setBank(bank.splice(index, 1));
+              }}
+              src={trash}
+              alt=""
+            />
           </div>
         </li>
       );
