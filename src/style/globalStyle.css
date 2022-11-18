@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+body button {
+  cursor: pointer;
+}
+
+body li {
+  font-family: 'Nunito', sans-serif;
+  list-style: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0;
+}
