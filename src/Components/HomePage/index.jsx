@@ -1,3 +1,5 @@
+import React from "react";
+
 import "../../style/coisasUsuais.css";
 import "../HomePage/style.css";
 import imgHome from "../../imgs/illustration.svg";

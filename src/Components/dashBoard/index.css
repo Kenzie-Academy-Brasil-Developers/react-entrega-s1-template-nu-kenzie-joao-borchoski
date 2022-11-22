@@ -1,200 +1,254 @@
-/* body {
-    background: white ;
-} */
-
 .containerDash {
-  width: 100%;
+    width: 100%;
 }
 
 header {
-  width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 header > div {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 12%;
-  max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 12%;
+    max-height: 100%;
 }
 
 header > div > h1 > span {
-  color: #fd377e;
+    color: #fd377e;
 }
 
 header > div > button {
-  border: 1.4px solid #e9ecef;
-  border-radius: 8px;
-  background: #e9ecef;
-  width: 8%;
-  font-size: 20px;
+    border: 1.4px solid #e9ecef;
+    border-radius: 8px;
+    background: #e9ecef;
+    width: 100%;
+    font-size: 20px;
+    max-width: 8%;
 }
 
 header > div > button:hover {
-  transform: scale(1.1);
-  transition: all 0.15s ease-in;
-  border: 1.4px solid #fd377e;
-  background: #fd377e;
-  color: white;
+    transform: scale(1.1);
+    transition: all 0.15s ease-in;
+    border: 1.4px solid #fd377e;
+    background: #fd377e;
+    color: white;
 }
 
 main {
-  padding: 2rem 12%;
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
+    padding: 2rem 12%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .divMain {
-  width: 30%;
+    width: 30%;
 }
 
 .divMain > form {
-  width: 100%;
-  height: 400px;
-  border: 1px solid rgb(233, 236, 239, 0.4);
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 41px;
-  padding: 32px 16px;
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(233, 236, 239, 0.4);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    padding: 32px 16px;
 }
 
 .div1 input {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 16px;
-  border: 2px solid #f8f9fa;
-  border-radius: 8px;
-  height: 48px;
-  font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    border: 2px solid #f8f9fa;
+    border-radius: 8px;
+    height: 48px;
+    font-size: 16px;
 }
 
 .div1 label {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .div2 {
-  display: flex;
-  gap: 16px;
+    display: flex;
+    gap: 16px;
 }
 
 .div2 div {
-  width: 100%;
+    width: 100%;
 }
 
 .div2 input,
 .div2 select {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 16px;
-  border-radius: 8px;
-  height: 48px;
-  font-size: 16px;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    border-radius: 8px;
+    height: 48px;
+    font-size: 16px;
+    width: 100%;
 }
 
 .divMain > form button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 13px 20px;
-  height: 48px;
-  border-radius: 8px;
-  background: #fd377e;
-  font-size: 16px;
-  color: white;
-  border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+    height: 48px;
+    border-radius: 8px;
+    background: #fd377e;
+    font-size: 16px;
+    color: white;
+    border: none;
 }
 
 .divFooter {
-  width: 100%;
-  border: 1px solid rgb(233, 236, 239, 0.4);
-  border-radius: 16px;
-  padding: 32px 16px;
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+    width: 100%;
+    border: 1px solid rgb(233, 236, 239, 0.4);
+    border-radius: 16px;
+    padding: 32px 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .divFooter > p {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .divMain2 {
-  width: 68%;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .divMain2Header {
-  height: 48px;
-  display: flex;
-  align-items: center;
+    height: 48px;
+    display: flex;
+    align-items: center;
 }
 .divButtons button {
-  height: 48px;
-  padding: 0 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 1.4px solid #e9ecef;
-  border-radius: 8px;
-  font-size: 16px;
+    height: 48px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1.4px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 .divButtons button:focus {
-  transform: scale(1.1);
-  transition: all 0.15s ease-in;
-  border: 1.4px solid #fd377e;
-  background: #fd377e;
-  color: white;
+    transform: scale(1.1);
+    transition: all 0.15s ease-in;
+    border: 1.4px solid #fd377e;
+    background: #fd377e;
+    color: white;
 }
 
 .divMain2 ul {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .divMain2 ul li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 87px;
-  border-bottom: 1px solid rgb(233, 236, 239, 0.4);
-  border-top: 1px solid rgb(233, 236, 239, 0.4);
-  border-right: 1px solid rgb(233, 236, 239, 0.4);
-  border-radius: 16px;
-  padding: 0 16px;
-  background: rgb(233, 236, 239, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 87px;
+    border-bottom: 1px solid rgb(233, 236, 239, 0.4);
+    border-top: 1px solid rgb(233, 236, 239, 0.4);
+    border-right: 1px solid rgb(233, 236, 239, 0.4);
+    border-radius: 16px;
+    padding: 0 16px;
+    background: rgb(233, 236, 239, 0.1);
 }
 
 .liGreen {
-  border-left: 3px rgb(38, 190, 38) solid;
+    border-left: 3px rgb(38, 190, 38) solid;
 }
 
 .liRed {
-  border-left: 3px rgb(179, 46, 46) solid;
+    border-left: 3px rgb(179, 46, 46) solid;
 }
 
 .divLi2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
 }
 
 .divLi2 img {
-  background: rgb(233, 236, 239, 0.4);
-  border-radius: 8px;
-  width: 30px;
-  padding: 4px;
+    background: rgb(233, 236, 239, 0.4);
+    border-radius: 8px;
+    width: 30px;
+    padding: 4px;
+}
+
+@media (max-width: 1050px) {
+    header {
+        box-shadow: none;
+        margin-bottom: 8px;
+        padding: 4px 16px;
+    }
+
+    header > div {
+        padding: 0;
+        align-items: center;
+    }
+
+    header > div > button {
+        max-width: 25%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        padding: 0 16px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .divMain {
+        width: 100%;
+    }
+
+    .divMain > form {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .divMain2 {
+        width: 100%;
+    }
+
+    .containerMain {
+        gap: 16px;
+    }
+
+    .divMain2Header {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 10%;
+    }
+
+    .divMain2 ul {
+        width: 100%;
+    }
+
+    
 }
