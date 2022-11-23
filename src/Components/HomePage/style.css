@@ -55,11 +55,11 @@ body {
         width: 100%;
         align-items: center;
         margin-bottom: 16px;
+        justify-content: center;
+        height: 100vh;
     }
     .containerRight {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+        display: none;
     }
     .containerRight img {
         width: 90vw;

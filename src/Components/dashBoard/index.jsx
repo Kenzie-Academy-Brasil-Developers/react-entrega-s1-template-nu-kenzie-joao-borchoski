@@ -29,7 +29,9 @@ export function DashBoard({ callback }) {
         let contador = 0;
 
         bank.forEach((element) => {
-            contador += element.value;
+            element.type === "entrada"
+                ? (contador += element.value)
+                : (contador -= element.value);
         });
 
         return <span>{contador}</span>;
@@ -60,7 +62,6 @@ export function DashBoard({ callback }) {
                             obj[document.getElementById("type").id] =
                                 document.getElementById("type").value;
 
-                            //console.log(bank);
                             return setBank([...bank, obj]);
                         }}
                     >
@@ -100,7 +101,6 @@ export function DashBoard({ callback }) {
                             <p>
                                 $<TotalMoney /> ,00
                             </p>
-                            {/*Tentei fazer isso com o map mas n sei pq nao estava dando certo ai fiz desse modo mesmo :( */}
                         </div>
                         <p>O valor se refere ao saldo</p>
                     </div>
@@ -134,7 +134,13 @@ export function DashBoard({ callback }) {
                     </div>
                     <ul>
                         {bank.map((element, index) => {
-                            return RenderCards(element, index, bank, setBank, filter);
+                            return RenderCards(
+                                element,
+                                index,
+                                bank,
+                                setBank,
+                                filter
+                            );
                         })}
                     </ul>
                 </div>

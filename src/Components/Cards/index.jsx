@@ -14,10 +14,9 @@ export default function RenderCards(element, index, array, setArray) {
                     <p>R${element.value},00</p>
                     <img
                         onClick={() => {
-                            let arrClick = [...array]
+                            let arrClick = [...array];
                             arrClick.splice(index, 1);
                             setArray(arrClick);
-                            console.log(arrClick);
                         }}
                         src={trash}
                         alt=""
@@ -36,10 +35,9 @@ export default function RenderCards(element, index, array, setArray) {
                     <p>R${element.value},00</p>
                     <img
                         onClick={() => {
-                            let arrClick = [...array]
+                            let arrClick = [...array];
                             arrClick.splice(index, 1);
                             setArray(arrClick);
-                            console.log(arrClick);
                         }}
                         src={trash}
                         alt=""
